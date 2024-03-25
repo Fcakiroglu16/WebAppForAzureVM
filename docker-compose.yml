@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapp:
+    image: webapphttps
+    build:
+      context: .
+      dockerfile: WebAppForDockerCompose/Dockerfile
